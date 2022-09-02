@@ -1,11 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "hashicorp-learn"
+/*  cloud {
+    organization = "The-Reach-Agency"
 
     workspaces {
       name = "learn-terraform-cloud"
     }
+*/
   }
 
   required_providers {
