@@ -1,13 +1,13 @@
 terraform {
 
-  cloud {
-    organization = "The-Reach-Agency"
+  # cloud {
+  #   organization = "The-Reach-Agency"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
 
-  }
+  # }
 
   required_providers {
     aws = {
